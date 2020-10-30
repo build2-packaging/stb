@@ -14,7 +14,7 @@
 !packages.manifest
 
 !LICENSE
-!README.md
+!*.md
 
 !.gitattributes
 !.gitignore

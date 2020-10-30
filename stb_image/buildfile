@@ -1,3 +1,8 @@
 ./: {*/ -build/} manifest legal{LICENSE} doc{README.md}
 
+docs/
+{
+  ./: doc{**.md}
+}
+
 tests/: install = false
