@@ -16,7 +16,10 @@ int main(int argc, char* argv[]) {
   unsigned char* image_data =
       stbi_load(argv[1], &image_width, &image_height, &image_channels, 0);
 
-  if (!image_data) throw std::runtime_error{"Could not load the image!\n"};
+  if (!image_data) {
+    cerr << "Could not load the image!\n" << flush;
+    return -1;
+  }
 
   cout << "resolution = " << image_width << " x " << image_height << " x "
        << image_channels << "\n"
