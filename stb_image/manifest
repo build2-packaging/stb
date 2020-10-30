@@ -14,7 +14,7 @@ url: https://github.com/nothings/stb
 package-url: https://github.com/build2-packaging/stb
 email: sean+github@nothings.org
 package-email: lyrahgames@mailbox.org
-build-warning-email: lyrahgames@mailbox.org
+build-error-email: lyrahgames@mailbox.org
 
 depends: * build2 >= 0.13.0
 depends: * bpkg >= 0.13.0

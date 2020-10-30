@@ -1,6 +1,10 @@
-#include <iostream>
-//
+#define STB_IMAGE_IMPLEMENTATION
+extern "C" {
 #include <stb_image.h>
+}
+//
+#include <iostream>
+#include <stdexcept>
 
 int main(int argc, char* argv[]) {
   using namespace std;
@@ -12,10 +16,9 @@ int main(int argc, char* argv[]) {
   unsigned char* image_data =
       stbi_load(argv[1], &image_width, &image_height, &image_channels, 0);
 
-  if (image_data) {
-    cout << "resolution = " << image_width << " x " << image_height << " x "
-         << image_channels << "\n";
-  } else {
-    throw runtime_error("Could not load the given image!\n"s + argv[1]);
-  }
+  if (!image_data) throw std::runtime_error{"Could not load the image!\n"};
+
+  cout << "resolution = " << image_width << " x " << image_height << " x "
+       << image_channels << "\n"
+       << flush;
 }
