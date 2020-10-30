@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_image/
+}
+
+export $out_root/stb_image/$import.target

@@ -1,0 +1,8 @@
+import libs = stb_image%lib{stb_image}
+
+exe{driver}: {hxx cxx}{**} $libs
+{
+  test.arguments = "$src_base/fire.jpeg"
+}
+
+exe{driver}: file{test.out}: test.stdout = true
