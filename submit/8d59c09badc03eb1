@@ -1,0 +1,7 @@
+: 1
+name: stb_image
+version: 2.26.0
+project: stb
+summary: Public Domain Image Loader
+license: MIT; MIT License
+license: Unlicense; The Unlicense
