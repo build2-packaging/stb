@@ -5,4 +5,4 @@ exe{driver}: {hxx cxx}{**} $libs file{fire.jpeg}
   test.arguments = "$src_base/fire.jpeg"
 }
 
-# exe{driver}: file{test.out}: test.stdout = true
+exe{driver}: file{test.out}: test.stdout = true
