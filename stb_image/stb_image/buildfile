@@ -1,14 +1,19 @@
-lib{stb_image}: h{stb_image}
+./: lib{stb_image}: h{stb_image}
+{
+  c.export.poptions = "-I$src_base"
+}
+
+./: lib{stb_image_implementation}: {h c}{stb_image}
 {
   c.export.poptions = "-I$src_base"
 }
 
 c.poptions =+ "-I$src_base"
 
-# obja{*}: c.poptions += -DSTB_IMAGE_STATIC_BUILD
-# objs{*}: c.poptions += -DSTB_IMAGE_SHARED_BUILD
+obja{*}: c.poptions += -DSTB_IMAGE_STATIC_BUILD
+objs{*}: c.poptions += -DSTB_IMAGE_SHARED_BUILD
 
-# liba{stb_image}: c.export.poptions += -DSTB_IMAGE_STATIC
-# libs{stb_image}: c.export.poptions += -DSTB_IMAGE_SHARED
+liba{stb_image_implementation}: c.export.poptions += -DSTB_IMAGE_STATIC
+libs{stb_image_implementation}: c.export.poptions += -DSTB_IMAGE_SHARED
 
 h{*}: install.subdirs = true
