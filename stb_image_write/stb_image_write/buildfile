@@ -1,0 +1,23 @@
+intf_libs = # Interface dependencies.
+
+lib{stb_image_write}: h{**} $intf_libs
+
+# Build options.
+#
+c.poptions =+ "-I$src_base"
+
+# Export options.
+#
+lib{stb_image_write}:
+{
+  c.export.poptions = "-I$src_base"
+  c.export.libs = $intf_libs
+}
+
+# Install into the stb_image_write/ subdirectory of, say, /usr/include/
+# recreating subdirectories.
+#
+h{*}:
+{
+  install         = include/
+}

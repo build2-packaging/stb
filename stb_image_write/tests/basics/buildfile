@@ -1,0 +1,3 @@
+import libs = stb_image_write%lib{stb_image_write}
+
+exe{driver}: {h c}{**} $libs testscript{**}

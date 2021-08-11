@@ -1,0 +1,7 @@
+project = stb_image_write
+
+using version
+using config
+using test
+using install
+using dist
