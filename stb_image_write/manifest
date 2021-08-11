@@ -15,7 +15,5 @@ email: sean+github@nothings.org
 package-email: wmbat@protonmail.com
 build-error-email: wmbat@protonmail.com
 
-email: wmbat@protonmail.com
-
 depends: * build2 >= 0.13.0
 depends: * bpkg >= 0.13.0
