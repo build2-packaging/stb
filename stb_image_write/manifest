@@ -5,6 +5,9 @@ project: stb
 summary: Public Domain Image Writer
 license: MIT ; MIT License
 
+topics: image writer, to disk
+keywords: PNG TGA BMP
+
 description-file: README.md
 url: https://github.com/nothings/stb
 package-url: https://github.com/build2-packaging/stb
