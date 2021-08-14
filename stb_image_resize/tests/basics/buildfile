@@ -1,0 +1,3 @@
+import libs = stb_image_resize%lib{stb_image_resize}
+
+exe{driver}: {h c}{**} $libs testscript{**}
