@@ -1,0 +1,6 @@
+: 1
+name: stb_image_write
+version: 1.15.0
+project: stb
+summary: Public Domain Image Writer
+license: MIT; MIT License
