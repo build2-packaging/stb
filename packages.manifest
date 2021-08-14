@@ -1,3 +1,4 @@
 : 1
 location: stb_image/
-
+:
+location: stb_image_write/

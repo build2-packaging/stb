@@ -1,0 +1,20 @@
+lib{stb_image_write}: h{**}
+
+# Build options.
+#
+c.poptions =+ "-I$src_base"
+
+# Export options.
+#
+lib{stb_image_write}:
+{
+  c.export.poptions = "-I$src_base"
+}
+
+# Install into the stb_image_write/ subdirectory of, say, /usr/include/
+# recreating subdirectories.
+#
+h{*}:
+{
+  install         = include/
+}
