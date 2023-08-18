@@ -1,0 +1,3 @@
+import libs = stb_truetype%lib{stb_truetype}
+
+exe{driver}: {h c}{**} $libs testscript{**}

@@ -1,0 +1,14 @@
+lib{stb_truetype}: h{stb_truetype}
+{
+  c.export.poptions = "-I$src_base"
+}
+
+c.poptions =+ "-I$src_base"
+
+# obja{*}: c.poptions += -DSTB_TRUETYPE_STATIC_BUILD
+# objs{*}: c.poptions += -DSTB_TRUETYPE_SHARED_BUILD
+
+# liba{stb_truetype}: c.export.poptions += -DDSTBTT_STATIC
+# libs{stb_truetype}: c.export.poptions += -DDSTBTT_SHARED
+
+h{*}: install.subdirs = true

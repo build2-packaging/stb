@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_truetype/
+}
+
+export $out_root/stb_truetype/$import.target

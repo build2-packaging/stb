@@ -4,3 +4,5 @@ location: stb_image/
 location: stb_image_write/
 :
 location: stb_image_resize/
+:
+location: stb_truetype/
