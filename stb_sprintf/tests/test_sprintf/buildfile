@@ -1,0 +1,4 @@
+import lib = stb_sprintf%lib{stb_sprintf}
+exe{test_sprintf}: {h c}{*} $lib testscript
+
+c.poptions += -DSTB_SPRINTF_IMPLEMENTATION -DTEST_SPRINTF

@@ -8,6 +8,8 @@
 !*.hpp
 !*.cpp
 
+!*.txt
+
 !buildfile
 !root.build
 !bootstrap.build

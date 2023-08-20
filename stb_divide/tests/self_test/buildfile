@@ -1,0 +1,2 @@
+import lib = stb_divide%lib{stb_divide}
+exe{self_test}: {h c}{**} $lib testscript

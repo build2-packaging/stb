@@ -1,0 +1,4 @@
+import lib = stb_image_write%lib{stb_image_write}
+exe{image_write_test}: {h c}{**} $lib testscript
+
+c.poptions += -DIWT_TEST

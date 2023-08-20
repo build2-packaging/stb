@@ -1,0 +1,13 @@
+mkdir output;
+$* \
+  &output/wr6x5_flip.bmp \
+  &output/wr6x5_flip.hdr \
+  &output/wr6x5_flip.jpg \
+  &output/wr6x5_flip.png \
+  &output/wr6x5_flip.tga \
+  &output/wr6x5_regular.bmp \
+  &output/wr6x5_regular.hdr \
+  &output/wr6x5_regular.jpg \
+  &output/wr6x5_regular.png \
+  &output/wr6x5_regular.tga \
+  == 0

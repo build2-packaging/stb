@@ -1,0 +1,4 @@
+# No output marks the successful
+# execution of all tests.
+#
+$* == 0

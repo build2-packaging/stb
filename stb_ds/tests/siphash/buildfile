@@ -1,0 +1,3 @@
+import lib = stb_ds%lib{stb_ds}
+./: exe{siphash}: {h c}{**} ../h{stb_ds} $lib
+exe{siphash}: file{output.txt}: test.stdout = true
