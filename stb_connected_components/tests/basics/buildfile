@@ -1,0 +1,2 @@
+import lib = stb_connected_components%lib{stb_connected_components}
+exe{basics}: {h c}{**} $lib

@@ -1,0 +1,2 @@
+import lib = stb_hexwave%lib{stb_hexwave}
+exe{basics}: {h c}{**} $lib

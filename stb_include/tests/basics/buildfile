@@ -1,0 +1,2 @@
+import lib = stb_include%lib{stb_include}
+exe{basics}: {h c}{**} $lib

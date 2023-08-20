@@ -1,4 +1,5 @@
 lib{stb_image}: h{stb_image}
 {
   c.export.poptions = "-I$src_base"
+  c.export.libs = -lm
 }

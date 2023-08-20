@@ -1,0 +1,2 @@
+import lib = stb_perlin%lib{stb_perlin}
+exe{basics}: {h c}{**} $lib

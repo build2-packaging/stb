@@ -1,0 +1,2 @@
+import lib = stb_divide%lib{stb_divide}
+exe{basics}: {h c}{**} $lib

@@ -1,0 +1,2 @@
+import lib = stb_ds%lib{stb_ds}
+exe{basics}: {h c}{**} $lib

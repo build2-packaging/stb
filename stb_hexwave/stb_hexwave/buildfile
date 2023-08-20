@@ -1,4 +1,5 @@
 lib{stb_hexwave}: h{stb_hexwave}
 {
   c.export.poptions = "-I$src_base"
+  c.export.libs = -lm
 }
