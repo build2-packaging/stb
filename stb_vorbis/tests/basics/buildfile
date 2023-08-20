@@ -1,2 +1,0 @@
-import lib = stb_vorbis%lib{stb_vorbis}
-exe{basics}: {h c}{**} $lib
