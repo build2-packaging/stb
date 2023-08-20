@@ -1,4 +1,4 @@
 lib{stb_perlin}: h{stb_perlin}
 {
-  c.export.poptions = "-I$src_base"
+  cc.export.poptions = "-I$src_base"
 }

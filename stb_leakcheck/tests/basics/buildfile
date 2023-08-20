@@ -1,2 +1,0 @@
-import lib = stb_leakcheck%lib{stb_leakcheck}
-exe{basics}: {h c}{**} $lib

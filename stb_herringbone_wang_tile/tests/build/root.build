@@ -3,6 +3,14 @@ using c
 h{*}: extension = h
 c{*}: extension = c
 
+cxx.std = latest
+using cxx
+
+hxx{*}: extension = h
+cxx{*}: extension = cpp
+
 test.target = $c.target
 
 exe{*}: test = true
+
+import lib = stb_herringbone_wang_tile%lib{stb_herringbone_wang_tile}

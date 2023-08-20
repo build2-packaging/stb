@@ -1,5 +1,7 @@
 lib{stb_easy_font}: h{stb_easy_font}
 {
-  c.export.poptions = "-I$src_base"
-  c.export.libs = -lm
+  cc.export.poptions = "-I$src_base"
 }
+
+if ($c.target.class != 'windows')
+  lib{stb_easy_font}: c.export.libs = -lm

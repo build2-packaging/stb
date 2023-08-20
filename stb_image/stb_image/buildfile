@@ -1,5 +1,7 @@
 lib{stb_image}: h{stb_image}
 {
-  c.export.poptions = "-I$src_base"
-  c.export.libs = -lm
+  cc.export.poptions = "-I$src_base"
 }
+
+if ($c.target.class != 'windows')
+  lib{stb_image}: c.export.libs = -lm

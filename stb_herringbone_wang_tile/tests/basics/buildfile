@@ -1,2 +1,0 @@
-import lib = stb_herringbone_wang_tile%lib{stb_herringbone_wang_tile}
-exe{basics}: {h c}{**} $lib

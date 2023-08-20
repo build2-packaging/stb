@@ -1,2 +1,0 @@
-import lib = stb_easy_font%lib{stb_easy_font}
-exe{basics}: {h c}{**} $lib

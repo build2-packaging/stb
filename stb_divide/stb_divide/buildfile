@@ -1,4 +1,4 @@
 lib{stb_divide}: h{stb_divide}
 {
-  c.export.poptions = "-I$src_base"
+  cc.export.poptions = "-I$src_base"
 }

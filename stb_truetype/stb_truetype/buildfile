@@ -1,5 +1,4 @@
 lib{stb_truetype}: h{stb_truetype}
 {
-  c.export.poptions = "-I$src_base"
-  c.export.libs = -lm
+  cc.export.poptions = "-I$src_base"
 }

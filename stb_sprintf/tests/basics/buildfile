@@ -1,2 +1,0 @@
-import lib = stb_sprintf%lib{stb_sprintf}
-exe{basics}: {h c}{**} $lib

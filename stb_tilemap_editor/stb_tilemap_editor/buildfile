@@ -1,4 +1,4 @@
 lib{stb_tilemap_editor}: h{stb_tilemap_editor}
 {
-  c.export.poptions = "-I$src_base"
+  cc.export.poptions = "-I$src_base"
 }

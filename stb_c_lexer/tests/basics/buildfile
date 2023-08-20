@@ -1,2 +1,0 @@
-import lib = stb_c_lexer%lib{stb_c_lexer}
-exe{basics}: {h c}{**} $lib

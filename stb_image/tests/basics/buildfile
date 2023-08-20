@@ -1,2 +1,0 @@
-import lib = stb_image%lib{stb_image}
-exe{basics}: {h c}{**} $lib

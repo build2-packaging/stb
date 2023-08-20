@@ -1,2 +1,0 @@
-import lib = stb_voxel_render%lib{stb_voxel_render}
-exe{basics}: {h c}{**} $lib

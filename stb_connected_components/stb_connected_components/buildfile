@@ -1,4 +1,4 @@
 lib{stb_connected_components}: h{stb_connected_components}
 {
-  c.export.poptions = "-I$src_base"
+  cc.export.poptions = "-I$src_base"
 }

@@ -1,2 +1,0 @@
-import lib = stb_image_write%lib{stb_image_write}
-exe{basics}: {h c}{**} $lib

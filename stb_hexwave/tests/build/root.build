@@ -3,6 +3,17 @@ using c
 h{*}: extension = h
 c{*}: extension = c
 
+cxx.std = latest
+using cxx
+
+hxx{*}: extension = h
+cxx{*}: extension = cpp
+
 test.target = $c.target
 
 exe{*}: test = true
+
+import lib = stb_hexwave%lib{stb_hexwave}
+
+if ($c.target.class != 'windows')
+  c.libs += -lm

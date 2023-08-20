@@ -1,2 +1,0 @@
-import lib = stb_image_resize%lib{stb_image_resize}
-exe{basics}: {h c}{**} $lib

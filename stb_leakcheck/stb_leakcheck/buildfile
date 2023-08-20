@@ -1,4 +1,4 @@
 lib{stb_leakcheck}: h{stb_leakcheck}
 {
-  c.export.poptions = "-I$src_base"
+  cc.export.poptions = "-I$src_base"
 }

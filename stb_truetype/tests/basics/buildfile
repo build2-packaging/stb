@@ -1,2 +1,0 @@
-import lib = stb_truetype%lib{stb_truetype}
-exe{basics}: {h c}{**} $lib

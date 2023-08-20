@@ -1,4 +1,4 @@
 lib{stb_textedit}: h{stb_textedit}
 {
-  c.export.poptions = "-I$src_base"
+  cc.export.poptions = "-I$src_base"
 }

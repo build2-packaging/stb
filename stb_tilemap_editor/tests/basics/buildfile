@@ -1,2 +1,0 @@
-import lib = stb_tilemap_editor%lib{stb_tilemap_editor}
-exe{basics}: {h c}{**} $lib

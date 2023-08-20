@@ -1,4 +1,4 @@
 lib{stb_voxel_render}: h{stb_voxel_render}
 {
-  c.export.poptions = "-I$src_base"
+  cc.export.poptions = "-I$src_base"
 }

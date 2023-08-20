@@ -1,5 +1,7 @@
 lib{stb_hexwave}: h{stb_hexwave}
 {
-  c.export.poptions = "-I$src_base"
-  c.export.libs = -lm
+  cc.export.poptions = "-I$src_base"
 }
+
+if ($c.target.class != 'windows')
+  lib{stb_hexwave}: c.export.libs = -lm
