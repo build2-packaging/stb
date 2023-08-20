@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_perlin/
+}
+
+export $out_root/stb_perlin/$import.target

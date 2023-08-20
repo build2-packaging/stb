@@ -1,6 +1,42 @@
 : 1
-location: stb_image/
+location: stb_c_lexer
 :
-location: stb_image_write/
+location: stb_connected_components
 :
-location: stb_image_resize/
+location: stb_divide
+:
+location: stb_ds
+:
+location: stb_dxt
+:
+location: stb_easy_font
+:
+location: stb_herringbone_wang_tile
+:
+location: stb_hexwave
+:
+location: stb_image
+:
+location: stb_image_resize
+:
+location: stb_image_write
+:
+location: stb_include
+:
+location: stb_leakcheck
+:
+location: stb_perlin
+:
+location: stb_rect_pack
+:
+location: stb_sprintf
+:
+location: stb_textedit
+:
+location: stb_tilemap_editor
+:
+location: stb_truetype
+:
+location: stb_vorbis
+:
+location: stb_voxel_render

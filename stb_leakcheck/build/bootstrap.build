@@ -1,0 +1,7 @@
+project = stb_leakcheck
+
+using version
+using config
+using test
+using install
+using dist

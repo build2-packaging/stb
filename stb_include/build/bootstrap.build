@@ -1,0 +1,7 @@
+project = stb_include
+
+using version
+using config
+using test
+using install
+using dist

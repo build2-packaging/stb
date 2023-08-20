@@ -1,0 +1,4 @@
+lib{stb_herringbone_wang_tile}: h{stb_herringbone_wang_tile}
+{
+  c.export.poptions = "-I$src_base"
+}

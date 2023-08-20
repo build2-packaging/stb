@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_tilemap_editor/
+}
+
+export $out_root/stb_tilemap_editor/$import.target

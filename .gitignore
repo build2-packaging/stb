@@ -1,6 +1,8 @@
 *
 !*/
 
+!upstream
+
 !*.h
 !*.c
 !*.hpp
@@ -10,12 +12,10 @@
 !root.build
 !bootstrap.build
 !export.build
-!manifest
-!packages.manifest
+!*manifest
+!*testscript
 
 !LICENSE
 !*.md
 
-!.gitattributes
-!.gitignore
-!.gitmodules
+!.git*

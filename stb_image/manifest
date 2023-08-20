@@ -1,20 +1,20 @@
 : 1
 name: stb_image
-version: 2.26.0
+version: 2.28.0
 project: stb
-summary: Public Domain Image Loader
-license: MIT ; MIT License
-license: Unlicense ; The Unlicense
-
-topics: image loader, image decoding, from file, from memory
-keywords: PNG JPG TGA BMP GIF
+type: lib,binless
+language: c
+summary: image loader
+license: MIT
+license: Unlicense
 
 description-file: README.md
 url: https://github.com/nothings/stb
-package-url: https://github.com/build2-packaging/stb
 email: sean+github@nothings.org
-package-email: lyrahgames@mailbox.org
-build-error-email: lyrahgames@mailbox.org
 
-depends: * build2 >= 0.13.0
-depends: * bpkg >= 0.13.0
+package-description-file: PACKAGE-README.md
+package-url: https://github.com/build2-packaging/stb/
+package-email: packaging@build2.org
+
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0

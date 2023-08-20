@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_connected_components/
+}
+
+export $out_root/stb_connected_components/$import.target

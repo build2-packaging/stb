@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_leakcheck/
+}
+
+export $out_root/stb_leakcheck/$import.target

@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_sprintf/
+}
+
+export $out_root/stb_sprintf/$import.target

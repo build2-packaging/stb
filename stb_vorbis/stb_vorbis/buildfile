@@ -1,0 +1,4 @@
+lib{stb_vorbis}: h{stb_vorbis.c.}
+{
+  c.export.poptions = "-I$src_base"
+}

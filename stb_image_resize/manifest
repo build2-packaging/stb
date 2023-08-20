@@ -1,19 +1,20 @@
 : 1
 name: stb_image_resize
-version: 0.96.0
+version: 0.97.0
 project: stb
-summary: resize images larger/smaller with good quality
-license: MIT ; MIT License
-
-topics: image resize
-keywords: image, resize
+type: lib,binless
+language: c
+summary: image resizing
+license: MIT
+license: Unlicense
 
 description-file: README.md
 url: https://github.com/nothings/stb
-package-url: https://github.com/build2-packaging/stb
 email: sean+github@nothings.org
-package-email: wmbat@protonmail.com
-build-error-email: wmbat@protonmail.com
 
-depends: * build2 >= 0.13.0
-depends: * bpkg >= 0.13.0
+package-description-file: PACKAGE-README.md
+package-url: https://github.com/build2-packaging/stb/
+package-email: packaging@build2.org
+
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0

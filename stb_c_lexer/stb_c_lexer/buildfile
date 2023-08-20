@@ -1,0 +1,4 @@
+lib{stb_c_lexer}: h{stb_c_lexer}
+{
+  c.export.poptions = "-I$src_base"
+}

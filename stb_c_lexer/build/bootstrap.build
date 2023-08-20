@@ -1,0 +1,7 @@
+project = stb_c_lexer
+
+using version
+using config
+using test
+using install
+using dist

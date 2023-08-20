@@ -1,0 +1,4 @@
+lib{stb_ds}: h{stb_ds}
+{
+  c.export.poptions = "-I$src_base"
+}

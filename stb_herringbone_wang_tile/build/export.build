@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_herringbone_wang_tile/
+}
+
+export $out_root/stb_herringbone_wang_tile/$import.target

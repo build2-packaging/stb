@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_textedit/
+}
+
+export $out_root/stb_textedit/$import.target

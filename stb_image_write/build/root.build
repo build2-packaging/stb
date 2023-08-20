@@ -3,10 +3,8 @@ using c
 h{*}: extension = h
 c{*}: extension = c
 
-# Assume headers are importable unless stated otherwise.
+# Configurable header-only libraries are not importable.
 #
-h{*}: c.importable = true
+h{*}: c.importable = false
 
-# The test target for cross-testing (running tests under Wine, etc).
-#
 test.target = $c.target

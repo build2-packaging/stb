@@ -1,20 +1,4 @@
-lib{stb_image_resize}: h{**}
-
-# Build options.
-#
-c.poptions =+ "-I$src_base"
-
-# Export options.
-#
-lib{stb_image_resize}:
+lib{stb_image_resize}: h{stb_image_resize}
 {
   c.export.poptions = "-I$src_base"
-}
-
-# Install into the stb_image_resize/ subdirectory of, say, /usr/include/
-# recreating subdirectories.
-#
-h{*}:
-{
-  install         = include/
 }

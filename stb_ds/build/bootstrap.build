@@ -1,0 +1,7 @@
+project = stb_ds
+
+using version
+using config
+using test
+using install
+using dist

@@ -1,0 +1,4 @@
+lib{stb_sprintf}: h{stb_sprintf}
+{
+  c.export.poptions = "-I$src_base"
+}

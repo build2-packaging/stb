@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_voxel_render/
+}
+
+export $out_root/stb_voxel_render/$import.target

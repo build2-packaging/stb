@@ -1,0 +1,2 @@
+ln -s $src_base/input.h stb_c_lexer.h;
+$* >- == 0

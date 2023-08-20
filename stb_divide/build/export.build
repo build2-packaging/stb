@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_divide/
+}
+
+export $out_root/stb_divide/$import.target

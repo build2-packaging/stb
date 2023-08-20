@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_easy_font/
+}
+
+export $out_root/stb_easy_font/$import.target

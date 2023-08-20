@@ -1,0 +1,7 @@
+project = stb_hexwave
+
+using version
+using config
+using test
+using install
+using dist

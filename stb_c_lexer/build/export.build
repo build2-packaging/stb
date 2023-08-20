@@ -1,0 +1,6 @@
+$out_root/
+{
+  include stb_c_lexer/
+}
+
+export $out_root/stb_c_lexer/$import.target
