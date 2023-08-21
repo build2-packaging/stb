@@ -1,1 +1,4 @@
 exe{cpp-import}: {hxx cxx}{**} $lib
+
+if ($cxx.id == 'gcc')
+  cxx.coptions += -Wno-unused-function
