@@ -7,6 +7,6 @@ exe{c-import}: {h c}{**} $lib
 #
 switch $c.id
 {
-  case 'gcc' | 'clang'
+  case 'gcc' | 'clang' | 'clang-apple'
     c.coptions += -Wno-unused-function
 }
