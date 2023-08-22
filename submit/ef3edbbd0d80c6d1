@@ -1,0 +1,9 @@
+: 1
+name: stb_leakcheck
+version: 0.6.0
+type: lib,binless
+language: c
+project: stb
+summary: quick & dirty malloc leak-checking
+license: MIT
+license: Unlicense

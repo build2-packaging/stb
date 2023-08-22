@@ -1,0 +1,9 @@
+: 1
+name: stb_sprintf
+version: 1.10.0
+type: lib,binless
+language: c
+project: stb
+summary: Single file sprintf replacement.
+license: MIT
+license: Unlicense

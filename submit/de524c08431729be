@@ -1,0 +1,9 @@
+: 1
+name: stb_herringbone_wang_tile
+version: 0.7.0
+type: lib,binless
+language: c
+project: stb
+summary: SDK for Herringbone Wang Tile generation
+license: MIT
+license: Unlicense

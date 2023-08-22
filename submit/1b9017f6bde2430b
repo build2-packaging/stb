@@ -1,0 +1,9 @@
+: 1
+name: stb_voxel_render
+version: 0.89.0
+type: lib,binless
+language: c
+project: stb
+summary: This library helps render large-scale "voxel" worlds for games.
+license: MIT
+license: Unlicense

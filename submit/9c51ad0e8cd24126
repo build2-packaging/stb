@@ -1,0 +1,9 @@
+: 1
+name: stb_textedit
+version: 1.14.0
+type: lib,binless
+language: c
+project: stb
+summary: implements the guts of a multi-line text-editing widget
+license: MIT
+license: Unlicense

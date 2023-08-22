@@ -1,0 +1,10 @@
+: 1
+name: stb_c_lexer
+version: 0.12.0
+type: lib,binless
+language: c
+project: stb
+summary: Lexer for making little C-like languages with recursive-descent\
+ parsers
+license: MIT
+license: Unlicense

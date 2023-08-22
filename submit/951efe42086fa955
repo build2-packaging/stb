@@ -1,0 +1,9 @@
+: 1
+name: stb_truetype
+version: 1.26.0
+type: lib,binless
+language: c
+project: stb
+summary: This library processes TrueType files.
+license: MIT
+license: Unlicense

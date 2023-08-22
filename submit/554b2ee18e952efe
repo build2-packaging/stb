@@ -1,0 +1,9 @@
+: 1
+name: stb_divide
+version: 0.94.0
+type: lib,binless
+language: c
+project: stb
+summary: Three kinds of divide/modulus of signed integers.
+license: MIT
+license: Unlicense

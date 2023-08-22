@@ -1,0 +1,9 @@
+: 1
+name: stb_connected_components
+version: 0.96.0
+type: lib,binless
+language: c
+project: stb
+summary: connected components on grids
+license: MIT
+license: Unlicense

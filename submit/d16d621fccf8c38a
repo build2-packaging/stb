@@ -1,0 +1,9 @@
+: 1
+name: stb_image_write
+version: 1.16.0
+type: lib,binless
+language: c
+project: stb
+summary: writes out PNG/BMP/TGA/JPEG/HDR images to C stdio
+license: MIT
+license: Unlicense

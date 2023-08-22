@@ -1,0 +1,9 @@
+: 1
+name: stb_include
+version: 0.2.0
+type: lib,binless
+language: c
+project: stb
+summary: parse and process #include directives
+license: MIT
+license: Unlicense

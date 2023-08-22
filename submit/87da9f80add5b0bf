@@ -1,0 +1,9 @@
+: 1
+name: stb_ds
+version: 0.67.0
+type: lib,binless
+language: c
+project: stb
+summary: data structures
+license: MIT
+license: Unlicense
