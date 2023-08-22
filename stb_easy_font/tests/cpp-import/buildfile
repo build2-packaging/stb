@@ -7,7 +7,7 @@ exe{cpp-import}: {hxx cxx}{**} $lib
 #
 switch $cxx.id
 {
-  case 'gcc' | 'clang' | 'clang-apple'
+  case 'gcc' | 'clang' | 'clang-apple' | 'clang-emscripten'
     cxx.coptions += -Wno-unused-function
 }
 
