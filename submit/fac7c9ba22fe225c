@@ -1,0 +1,9 @@
+: 1
+name: stb_hexwave
+version: 0.5.0+1
+type: lib,binless
+language: c
+project: stb
+summary: A flexible anti-aliased (bandlimited) digital audio oscillator.
+license: MIT
+license: Unlicense
