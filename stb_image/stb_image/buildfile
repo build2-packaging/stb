@@ -4,4 +4,7 @@ lib{stb_image}: h{stb_image}
 }
 
 if ($c.target.class != 'windows')
+{
   lib{stb_image}: c.export.libs = -lm
+  c.libs = -lm
+}

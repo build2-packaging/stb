@@ -14,6 +14,3 @@ test.target = $c.target
 exe{*}: test = true
 
 import lib = stb_vorbis%lib{stb_vorbis}
-
-if ($c.target.class != 'windows')
-  c.libs += -lm

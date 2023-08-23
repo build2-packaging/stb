@@ -4,4 +4,7 @@ lib{stb_easy_font}: h{stb_easy_font}
 }
 
 if ($c.target.class != 'windows')
+{
   lib{stb_easy_font}: c.export.libs = -lm
+  c.libs = -lm
+}

@@ -14,6 +14,3 @@ test.target = $c.target
 exe{*}: test = true
 
 import lib = stb_hexwave%lib{stb_hexwave}
-
-if ($c.target.class != 'windows')
-  c.libs += -lm

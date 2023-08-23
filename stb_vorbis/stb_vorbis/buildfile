@@ -4,4 +4,7 @@ lib{stb_vorbis}: h{stb_vorbis.c.}
 }
 
 if ($c.target.class != 'windows')
+{
   lib{stb_vorbis}: c.export.libs = -lm
+  c.libs = -lm
+}

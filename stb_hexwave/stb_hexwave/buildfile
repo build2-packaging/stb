@@ -4,4 +4,7 @@ lib{stb_hexwave}: h{stb_hexwave}
 }
 
 if ($c.target.class != 'windows')
+{
   lib{stb_hexwave}: c.export.libs = -lm
+  c.libs = -lm
+}

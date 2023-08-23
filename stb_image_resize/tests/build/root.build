@@ -14,6 +14,3 @@ test.target = $c.target
 exe{*}: test = true
 
 import lib = stb_image_resize%lib{stb_image_resize}
-
-if ($c.target.class != 'windows')
-  c.libs += -lm

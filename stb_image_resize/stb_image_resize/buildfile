@@ -4,4 +4,7 @@ lib{stb_image_resize}: h{stb_image_resize}
 }
 
 if ($c.target.class != 'windows')
+{
   lib{stb_image_resize}: c.export.libs = -lm
+  c.libs = -lm
+}
