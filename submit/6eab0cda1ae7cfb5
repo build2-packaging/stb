@@ -1,0 +1,9 @@
+: 1
+name: stb_image
+version: 2.28.0+1
+type: lib,binless
+language: c
+project: stb
+summary: image loader
+license: MIT
+license: Unlicense
