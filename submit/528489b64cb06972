@@ -1,0 +1,9 @@
+: 1
+name: stb_image_resize
+version: 0.97.0+1
+type: lib,binless
+language: c
+project: stb
+summary: image resizing
+license: MIT
+license: Unlicense
