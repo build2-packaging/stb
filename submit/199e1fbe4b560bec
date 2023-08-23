@@ -1,0 +1,9 @@
+: 1
+name: stb_vorbis
+version: 1.22.0+1
+type: lib,binless
+language: c
+project: stb
+summary: Ogg Vorbis audio decoder
+license: MIT
+license: Unlicense
