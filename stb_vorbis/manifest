@@ -1,6 +1,6 @@
 : 1
 name: stb_vorbis
-version: 1.22.0
+version: 1.22.0+1
 project: stb
 type: lib,binless
 language: c
