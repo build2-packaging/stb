@@ -1,1 +1,1 @@
-../../upstream/stb_image_resize.h
+../../upstream/deprecated/stb_image_resize.h
