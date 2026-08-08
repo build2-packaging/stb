@@ -8,6 +8,11 @@
 !*.hpp
 !*.cpp
 
+!*.h.orig
+!*.c.orig
+!*.h.patch
+!*.c.patch
+
 !*.txt
 
 !buildfile

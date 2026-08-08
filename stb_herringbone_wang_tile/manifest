@@ -1,6 +1,6 @@
 : 1
 name: stb_herringbone_wang_tile
-version: 0.7.0
+version: 0.7.0+1
 project: stb
 type: lib,binless
 language: c
