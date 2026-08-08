@@ -128,5 +128,5 @@ Please, file an issue on [GitHub](https://github.com/build2-packaging/miniz/issu
 3. Update library version in `manifest` file if it has changed or add package update by using `+n` for the `n`-th update.
 4. Make an appropriate commit message by using imperative mood and a capital letter at the start and push the new commit to the `master` branch.
 5. Run `bdep ci` and test for errors and warnings.
-6. When successful, run `bdep release --tag --push` to push new tag version to repository.
+6. When successful, run `bdep release --tag --push -d <package>` for each updated package to push its new tag to the repository. Since each package has its own independent version, this must be scoped per package with `-d`; running it unscoped fails with `different current package versions` as soon as any two packages disagree.
 7. Run `bdep publish` to publish the package to [cppget.org](https://cppget.org).
