@@ -1,0 +1,12 @@
+--- test_sprintf.c.orig	2026-08-08 18:37:21
++++ test_sprintf.c	2026-08-08 20:35:12
+@@ -72,7 +72,9 @@
+ #if !defined(_MSC_VER) || _MSC_VER >= 1600
+    CHECK2("9888777666", "%llu", 9888777666llu);
+ #endif
++#if !defined(_MSC_VER)
+    CHECK4("-1 2 -3", "%ji %zi %ti", (intmax_t)-1, (ssize_t)2, (ptrdiff_t)-3);
++#endif
+ 
+    // floating-point numbers
+    CHECK2("-3.000000", "%f", -3.0);
