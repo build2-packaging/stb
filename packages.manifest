@@ -19,6 +19,8 @@ location: stb_image
 :
 location: stb_image_resize
 :
+location: stb_image_resize2
+:
 location: stb_image_write
 :
 location: stb_include

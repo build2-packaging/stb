@@ -1,0 +1,20 @@
+: 1
+name: stb_image_resize2
+version: 2.18.0-a.0.z
+project: stb
+type: lib,binless
+language: c
+summary: image resizing
+license: MIT
+license: Unlicense
+
+description-file: README.md
+url: https://github.com/nothings/stb
+email: sean+github@nothings.org
+
+package-description-file: PACKAGE-README.md
+package-url: https://github.com/build2-packaging/stb/
+package-email: packaging@build2.org
+
+depends: * build2 >= 0.18.0
+depends: * bpkg >= 0.18.0

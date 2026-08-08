@@ -1,0 +1,10 @@
+using c
+
+h{*}: extension = h
+c{*}: extension = c
+
+# Configurable header-only libraries are not importable.
+#
+h{*}: c.importable = false
+
+test.target = $c.target

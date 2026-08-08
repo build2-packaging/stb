@@ -48,6 +48,7 @@ Add the respective dependency in your project's `manifest` file to make the requ
     depends: stb_hexwave ^0.5.0
     depends: stb_image ^2.30.0
     depends: stb_image_resize ^0.97.0
+    depends: stb_image_resize2 ^2.18.0
     depends: stb_image_write ^1.16.0
     depends: stb_include ^0.2.0
     depends: stb_leakcheck ^0.6.0
@@ -72,6 +73,7 @@ Libraries can then simply be imported by the following declarations in a `buildf
     import stb_hexwave = stb_hexwave%lib{stb_hexwave}
     import stb_image = stb_image%lib{stb_image}
     import stb_image_resize = stb_image_resize%lib{stb_image_resize}
+    import stb_image_resize2 = stb_image_resize2%lib{stb_image_resize2}
     import stb_image_write = stb_image_write%lib{stb_image_write}
     import stb_include = stb_include%lib{stb_include}
     import stb_leakcheck = stb_leakcheck%lib{stb_leakcheck}

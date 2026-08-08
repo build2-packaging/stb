@@ -1,0 +1,10 @@
+lib{stb_image_resize2}: h{stb_image_resize2}
+{
+  cc.export.poptions = "-I$src_base"
+}
+
+if ($c.target.class != 'windows')
+{
+  lib{stb_image_resize2}: c.export.libs = -lm
+  c.libs = -lm
+}
