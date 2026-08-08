@@ -46,7 +46,7 @@ Add the respective dependency in your project's `manifest` file to make the requ
     depends: stb_easy_font ^1.1.0
     depends: stb_herringbone_wang_tile ^0.7.0
     depends: stb_hexwave ^0.5.0
-    depends: stb_image ^2.28.0
+    depends: stb_image ^2.30.0
     depends: stb_image_resize ^0.97.0
     depends: stb_image_write ^1.16.0
     depends: stb_include ^0.2.0
